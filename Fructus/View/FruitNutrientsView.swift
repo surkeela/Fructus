@@ -28,7 +28,7 @@ struct FruitNutrientsView: View {
                         }
                         .foregroundColor(fruit.gradientColors[1])
                         .font(Font.system(.body).bold())
-                            Spacer(minLength: 25)
+                        Spacer(minLength: 25)
                         Text(fruit.nutrition[item])
                             .multilineTextAlignment(.trailing)
                     }

@@ -52,13 +52,14 @@ struct FruitDetailView: View {
                         
                     } //: VSTACK
                     .padding(.horizontal, 20)
-//                    .frame(minWidth: 640, alignment: .center)
+                    //                    .frame(minWidth: 640, alignment: .center)
                 } //: VSTACK
                 .navigationBarTitle(fruit.title, displayMode: .inline)
                 .navigationBarHidden(true)
             } //: SCROLL
             .edgesIgnoringSafeArea(.top)
         } //: NAVIGATION
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
